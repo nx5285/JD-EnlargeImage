@@ -1,0 +1,36 @@
+body{
+	margin: 0;
+}
+#box{
+	width: 350px;
+	height: 350px;
+	border: 1px solid black;
+	position: relative;
+}
+#bg{
+	width: 175px;
+	height: 175px;
+	background-color: rgba(225,225,0,.5);
+	position: absolute;
+	left: 0;
+	top: 0;
+	display: none;
+	cursor: move;
+}
+#box2{
+	width: 400px;
+	height: 400px;
+	border: 1px solid black;
+	position:absolute;
+	left: 500px;
+	top: 0;
+	overflow: hidden;
+	display: none;
+}
+#big{
+	width: 800px;
+	height: 800px;
+	position: absolute;
+	top: 0;
+	left: 0;
+}
